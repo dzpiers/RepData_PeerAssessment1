@@ -11,6 +11,10 @@ working directory. Also loading relevant packages for the data analysis later
 on.
 
 
+```r
+library(dplyr)
+```
+
 ```
 ## 
 ## Attaching package: 'dplyr'
@@ -28,15 +32,9 @@ on.
 ##     intersect, setdiff, setequal, union
 ```
 
-```
-## 
-## Attaching package: 'data.table'
-```
-
-```
-## The following objects are masked from 'package:dplyr':
-## 
-##     between, first, last
+```r
+library(ggplot2)
+library(knitr)
 ```
 
 

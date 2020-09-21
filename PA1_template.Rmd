@@ -10,9 +10,8 @@ Code that downloads and unzips folder if the required file isn't already in the
 working directory. Also loading relevant packages for the data analysis later 
 on.
 
-```{r echo=FALSE}
+```{r echo=TRUE, results='hide'}
 library(dplyr)
-library(data.table)
 library(ggplot2)
 library(knitr)
 ```

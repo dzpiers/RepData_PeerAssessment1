@@ -369,6 +369,7 @@ summary {
 <div id="loading-and-processing-the-data" class="section level2">
 <h2>1. Loading and Processing the Data</h2>
 <p>Code that downloads and unzips folder if the required file isn’t already in the working directory. Also loading relevant packages for the data analysis later on.</p>
+<pre class="r"><code>library(dplyr)</code></pre>
 <pre><code>## 
 ## Attaching package: &#39;dplyr&#39;</code></pre>
 <pre><code>## The following objects are masked from &#39;package:stats&#39;:
@@ -377,11 +378,8 @@ summary {
 <pre><code>## The following objects are masked from &#39;package:base&#39;:
 ## 
 ##     intersect, setdiff, setequal, union</code></pre>
-<pre><code>## 
-## Attaching package: &#39;data.table&#39;</code></pre>
-<pre><code>## The following objects are masked from &#39;package:dplyr&#39;:
-## 
-##     between, first, last</code></pre>
+<pre class="r"><code>library(ggplot2)
+library(knitr)</code></pre>
 <pre class="r"><code>filename &lt;- &quot;repdata_data_activity.zip&quot;
 if(!file.exists(filename)){
     fileURL &lt;- &quot;https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip&quot;
